@@ -33,11 +33,24 @@ https://pub.dev/packages/flutter_youtube_view
 [API For video list: https://s3-ap-southeast-1.amazonaws.com/ysetter/media/video-search.json/](https://s3-ap-southeast-1.amazonaws.com/ysetter/media/video-search.json)
 
 
-## How to use?
+## How to view code?
 1. Download code from <https://github.com/CrayJThiemsert/ft_video_list>.
 2. Extract zip file from 1) to your machine.
 3. Open Android Studio, choose menu "Import project (Gradle, Eclipse, ADT, etc.)". And select the directory that extract file from 2).
 4. Wait for loading project files completed.
+
+## How to play App?
+1. On your Android mobile phone, open chrome browser and download APK file from <https://github.com/CrayJThiemsert/ft_video_list/raw/master/apk/video_list_app-release.apk>.
+2. Install it by following the screenshots below.
+
+## Screenshots
+![](images/install_from_apk.gif)
+
+3. Run the "Video List" App after installation completed.
+4. You can scroll the list and tap on the video that you want to play.
+
+## Troubleshooting
+1. If App show empty or blank screen. Please close App and run it again. The video list should show completly after rerun the App.
 
 ## Test user credential
 Please register in Bitazza.com and use the credentials for testing.
