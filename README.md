@@ -1,16 +1,49 @@
-# ft_video_list
+## Video List Assignment
 
-A new Flutter application to load and play youtube video.
+Project of assignment for developer skill test.
 
-## Getting Started
+## Screenshots
+![](images/assignment_app_screens.gif)
 
-This project is a starting point for a Flutter application.
+##  Goal
+The goal of this assignment is to verify that the applicant is able to:
 
-A few resources to get you started if this is your first Flutter project:
+* Create a new android project based on requirements
+* Use web socket services.
+* Implement user authentication.
+* Write clean and structured code
+* Use git and source controls
+* Write short and clean documentation
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Tech/framework used
+* Android Java
+* Websocket services
+```sh
+wss://apexapi.bitazza.com/WSGateway/
+```
+* Thread programming
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+dependencies {
+    ...
+    //  For WebSocket
+    implementation 'com.squareup.okhttp3:okhttp:3.6.0'
+
+    // For convert JSON to Object
+    implementation 'com.google.code.gson:gson:2.8.6'
+    ...
+}
+```
+
+## API Reference
+[API Documentation: https://api-doc.bitazza.com/](https://api-doc.bitazza.com/)
+
+
+## How to use?
+1. Download code from <https://gitlab.com/CrayJThiemsert/bitazza>.
+2. Extract zip file from 1) to your machine.
+3. Open Android Studio, choose menu "Import project (Gradle, Eclipse, ADT, etc.)". And select the directory that extract file from 2).
+4. Wait for loading project files completed.
+
+## Test user credential
+Please register in Bitazza.com and use the credentials for testing.
