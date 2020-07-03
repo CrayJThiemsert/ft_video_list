@@ -32,6 +32,10 @@ dependencies:
   flutter_svg: ^0.17.4 # For use SVG
   octo_image: ^0.2.1
 
+  flutter_youtube_view: ^1.1.8 # For playing youtube
+
+  flutter_launcher_icons: ^0.7.5
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -40,6 +44,11 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/dq03.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

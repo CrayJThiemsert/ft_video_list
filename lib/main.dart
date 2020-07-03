@@ -18,7 +18,7 @@ class App extends StatelessWidget {
       title: 'Flutter Infinite Scroll',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Flutter Bloc Posts'),
+          title: Text('Video List'),
         ),
         body: BlocProvider(
           create: (context) =>
