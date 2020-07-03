@@ -84,26 +84,6 @@ class _WatchingTubeState extends State<WatchingTube> implements YouTubePlayerLis
                 },
               ),
             ),
-//            Container(
-//              height: size.height * 0.3,
-//              width: size.width * 0.95,
-//              decoration: BoxDecoration(
-//                borderRadius: BorderRadius.all(Radius.circular(3)),
-//                boxShadow: [
-//                  BoxShadow(
-//                    offset: Offset(0, 10),
-//                    blurRadius: 30,
-//                    color: kGreyColor.withOpacity(0.29),
-//                  )
-//                ],
-//                image: DecorationImage(
-//                  alignment: Alignment.center,
-//                  fit: BoxFit.contain,
-//                  image: NetworkImageWithRetry(
-//                      item.snippet.thumbnails.p_default.url),
-//                ),
-//              ),
-//            ),
             Container(
                 height: size.height * 0.3,
                 width: size.width * 0.95,
