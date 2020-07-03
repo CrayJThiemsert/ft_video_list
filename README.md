@@ -1,6 +1,6 @@
 ## Video List Assignment
 
-Project of assignment for developer skill test.
+Project of assignment for mobile developer skill test.
 
 ## Screenshots
 ![](images/assignment_app_screens.gif)
@@ -8,35 +8,29 @@ Project of assignment for developer skill test.
 ##  Goal
 The goal of this assignment is to verify that the applicant is able to:
 
-* Create a new android project based on requirements
-* Use web socket services.
-* Implement user authentication.
-* Write clean and structured code
-* Use git and source controls
-* Write short and clean documentation
+* Create a new mobile App based on requirements. Show Video Search Results from this API
+https://s3-ap-southeast-1.amazonaws.com/ysetter/media/video-search.json
+* Can click to play video.
+* Design the best code using MVC or decide on your own design pattern. If there is a more interesting design pattern.
+* Do not use ready-made frameworks for development in order to Can consider the code design.
+* Choose your own language.
+* Take it to Github and submit the work as a Github URL.
+* Place all code to run on the Docker and write the Start Docker method for trial use on README.md.
+Of github.
 
 ## Tech/framework used
-* Android Java
-* Websocket services
+* Android/iOS Flutter (for programming language)
+* BLOC (Business Logic Components) Pattern (for design pattern)
 ```sh
-wss://apexapi.bitazza.com/WSGateway/
+https://pub.dev/packages/flutter_bloc
 ```
-* Thread programming
-
+* flutter_youtube_view (for playing youtube video)
 ```sh
-dependencies {
-    ...
-    //  For WebSocket
-    implementation 'com.squareup.okhttp3:okhttp:3.6.0'
-
-    // For convert JSON to Object
-    implementation 'com.google.code.gson:gson:2.8.6'
-    ...
-}
+https://pub.dev/packages/flutter_youtube_view
 ```
 
 ## API Reference
-[API Documentation: https://api-doc.bitazza.com/](https://api-doc.bitazza.com/)
+[API For video list: https://s3-ap-southeast-1.amazonaws.com/ysetter/media/video-search.json/](https://s3-ap-southeast-1.amazonaws.com/ysetter/media/video-search.json)
 
 
 ## How to use?
