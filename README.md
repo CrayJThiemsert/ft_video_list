@@ -34,7 +34,7 @@ https://pub.dev/packages/flutter_youtube_view
 
 
 ## How to use?
-1. Download code from <https://gitlab.com/CrayJThiemsert/bitazza>.
+1. Download code from <https://github.com/CrayJThiemsert/ft_video_list>.
 2. Extract zip file from 1) to your machine.
 3. Open Android Studio, choose menu "Import project (Gradle, Eclipse, ADT, etc.)". And select the directory that extract file from 2).
 4. Wait for loading project files completed.
